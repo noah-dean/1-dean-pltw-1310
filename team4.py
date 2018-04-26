@@ -1,14 +1,14 @@
 ####
 # Each team's file must define four tokens:
 #     team_name: team 4
-#     strategy_name: a string
-#     strategy_description: a string
+#     strategy_name: the ultimate strategy
+#     strategy_description: how we're gonna win this tournement
 #     move: A function that returns 'c' or 'b'
 ####
 
 team_name = 'Team4' # Only 10 chars displayed.
-strategy_name = 'The name the team gives to this strategy'
-strategy_description = 'How does this strategy decide?'
+strategy_name = 'the ultimate strategy'
+strategy_description = 'how we are gonna win this tournement'
     
 def move(my_history, their_history, my_score, their_score):
     ''' Arguments accepted: my_history, their_history are strings.
